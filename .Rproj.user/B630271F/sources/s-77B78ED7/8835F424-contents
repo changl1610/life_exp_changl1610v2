@@ -1,0 +1,15 @@
+---
+title: "Examine Life Expectancy"
+author: "Chang Liu"
+date: "9/6/2021"
+output: 
+html_document :
+df_print: paged
+urlcolor: blue
+---
+
+# Abstract
+
+Here, I re-examined the analysis of Oeppen and Vaupel (2002).
+
+# Analysis
