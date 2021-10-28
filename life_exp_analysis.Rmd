@@ -2,7 +2,7 @@
 title: "Examine Life Expectancy"
 author: "Chang Liu"
 date: "9/6/2021"
-output: 
+output: html_document
 html_document :
 df_print: paged
 urlcolor: blue
@@ -43,3 +43,19 @@ gapminder_unfiltered %>%
   sumdat
 
 ```
+
+new plot
+```{r}
+
+sumdat %>%
+  ggplot(aes(x = year, y = lifeExp)) +
+  geom_point(aes(color = country)) +
+  geom_point(pch = 1) +
+  theme_bw() +
+  geom_smooth(method = "lm", se = FALSE) +
+  xlab("Year") +
+  ylab("Maximum Life Expectancy") +
+  scale_color_discrete(name = "Country")
+
+```
+
