@@ -33,7 +33,11 @@ This was on the branch of testname
 I have even updated it more
 and even more so
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+deleted conflict headers
+>>>>>>> testname
 =======
 deleted conflict headers
 >>>>>>> testname
